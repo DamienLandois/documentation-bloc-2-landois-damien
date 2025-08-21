@@ -162,9 +162,6 @@ utils/
 - `Dockerfile` — Image multi-stage optimisée
 - Scripts npm adaptés par environnement
 
-### **Documentation**
-
-
 ## Pourquoi cette architecture ?
 
 ### ** Sécurité renforcée**
