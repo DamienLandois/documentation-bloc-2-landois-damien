@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Ce projet présente le développement d'une API REST complète dédiée à la gestion d'une entreprise de massage, réalisée dans le cadre de ma formation pour un client réel, le client est au courant du context de développent de son application et y ai consentent.
+Ce projet présente le développement d'une API REST complète dédiée à la gestion d'une entreprise de massage, réalisée dans le cadre de ma formation pour un client réel, le client est au courant du context de développent de son application et y ai consentant.
 L'application backend, construite avec NestJS et TypeScript, offre un système complet de gestion des réservations et de créneaux horaires de travail, des utilisateurs et des prestations de massage. L'architecture modulaire intègre une authentification JWT sécurisée, une base de données MySQL gérée via Prisma ORM, et un système de notifications par email (ici parametré avec gmail). Le projet inclut une infrastructure DevOps complète avec une pipeline CI/CD automatisée via GitHub Actions, des tests unitaires et end-to-end, ainsi qu'un monitoring en temps réel avec Uptime Kuma. Cette solution technique répond aux besoins métier du salon de massage préalablement établie avec le client tout en démontrant la maîtrise des technologies de développements et des bonnes pratiques DevOps. L'ensemble du code source est dispobible via ce lien github: https://github.com/DamienLandois/Block-2-landois-damien-backend (lien public).
 Toute la documentation technique et des procédures de déploiement sont disponibles dans cette documention.
 
