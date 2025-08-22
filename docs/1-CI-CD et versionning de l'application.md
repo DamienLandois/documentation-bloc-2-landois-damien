@@ -145,12 +145,12 @@ jobs:
 
 Le pipeline est organisé en **2 jobs principaux** avec une approche de **versioning automatique** :
 
-1. **test** : Installation, linting, migrations Prisma, tests unitaires et E2E avec MySQL
-2. **build-and-push** : Génération automatique de version, construction et publication d'images Docker avec double tagging (master uniquement)
+**test** : Installation, linting, migrations Prisma, tests unitaires et E2E avec MySQL
+**build-and-push** : Génération automatique de version, construction et publication d'images Docker avec double tagging (master uniquement)
 
 ## Détail des étapes
 
-### 1. Job `test`
+### Job `test`
 **But :** Valider la qualité du code et s'assurer que toutes les fonctionnalités marchent  
 **Environnement :** Ubuntu + MySQL 8 + Node.js 22
 
@@ -171,7 +171,7 @@ Le pipeline est organisé en **2 jobs principaux** avec une approche de **versio
 
 **Avantage :** S'assure que toutes les fonctionnalités sont validées avec une base de données réelle
 
-### 2. Job `build-and-push`
+### Job `build-and-push`
 **But :** Générer automatiquement une version sémantique, construire et publier les images Docker  
 **Condition :** Tests réussis + push sur branche `master`
 
